@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Meme Generator</h1>
+  </header>
+  <main>
+
+    <div class="edit-meme">
+      Texto: <input id='text-input' type="text" maxlength="60">
+      <br>
+      <input type="file" accept="image/png, image/jpeg" id="meme-insert">
+    </div>
+
+    <section id='meme-image-container'>
+        <img  alt="Uploaded Image" id="meme-image">
+        <span id='meme-text'></span>
+      </div>
+    </section>
+  </main>
+
+  <hr>
+
+  <h3 id='setted-text'>Memes mais famosos:</h3>
+  <div class="setted-container">
+    <div class="pre-set-memes">
+      <img class="setted-memes" src="images/blog_meme.jpg" alt="YEAH meme"> <img class="setted-memes" src="images/mimimi.jpg" alt="mimimi meme"> <img class="setted-memes" src="images/naomediga.jpg" alt="cage meme">
+      <img src="images/toystory.jpeg" alt="toy stoyry meme" class="setted-memes"> <img class="setted-memes" src="images/spiderman.png" alt="spider meme">
+      <img src="images/teacher.jpg" alt="teacher meme" class="setted-memes"> <img src="images/theoffice.jpg" alt="the office meme" class="setted-memes">
+      <img src="images/nazare.png" alt="nazare meme" class="setted-memes"> <img src="images/lucas.jpeg" alt="meme do lucas" class="setted-memes">
+    </div>
+  </div>
+
+  <script src='script.js'></script>
+</body>
+</html>

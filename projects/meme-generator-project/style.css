@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f3f4;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 25px;
+  background-color: #f8f9fa;
+}
+
+#meme-insert {
+  margin-top: 10px;
+}
+
+button {
+  border-radius: 3px;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.edit-meme {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#meme-image {
+  width: 600px;
+  height: 400px;
+  position:absolute
+}
+
+#meme-image-container {
+  margin: auto;
+  border: solid black 1px;
+}
+section {
+  width: 600px;
+  height: 400px;
+  background-color: white;
+}
+
+#meme-text {
+  position: absolute;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 5px 5px 5px black;
+  font-size:30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  max-width: 570px;
+  padding-top: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.setted-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+}
+
+#setted-text {
+  text-align: center;
+}
+
+.pre-set-memes {
+  width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.setted-memes {
+  width: 100px;
+  border: 1px solid black;
+  margin-top: 10px;
+  height: 65px;
+}
