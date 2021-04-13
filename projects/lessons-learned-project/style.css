@@ -1,0 +1,117 @@
+* {
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Courier New, Courier, monospace;}
+
+body {
+  background-color: rgb(253, 251, 251);}
+
+#cabecalho {
+  top: 0;
+  background-color: rgb(114, 239, 221);
+  position: fixed;
+  width: 100%;}
+
+header h1 {
+  font-size: 50px;}
+
+header h2 {
+  font-size: 35px;}
+
+header h1 , header h2 {
+  line-height: 10px;}
+
+h3 {
+  font-size: 25px;
+  margin-left: 25px;
+  margin-bottom: 0;}
+
+#picture {
+  margin-left: 50px;
+  margin-top: 180px;}
+
+#minha_foto {
+  display: block;
+  margin: auto;}
+
+#legenda {
+  text-align: center;
+  font-size: 20px;}
+
+#nav li {
+  display: inline-block;
+  margin-left: 100px;
+  margin-right: 100px;}
+
+#nav {
+  text-align: center;}
+
+#supernatural , .li-nav {
+  font-weight: 600;}
+
+.li-nav {
+  color: rgb(116, 0, 184);
+  font-size: 25px;}
+
+#lessons {
+  background-color: rgb(222, 226, 255);
+  height: 250px;}
+
+#licoes_aprendidas {
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 200px;
+  width: 200px;
+  background-color: rgb(254, 234, 250);
+  border-style: solid;
+  border-width: 2px;}
+
+#licoes_a_aprender {
+  float: right;
+  margin-right: 200px;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 250px;
+  background-color: rgb(254, 234, 250);
+  border-style: solid;
+  border-width: 2px;}
+
+#licoes_aprendidas li:hover {
+  color: blue;
+  font-size: bold;}
+
+#licoes_a_aprender li:hover {
+  color: red;
+  font-size: bold;}
+
+#articles {
+  height: 370px;
+  width: 100%;
+  background-color: rgb(239, 211, 215);}
+
+.lado-esquerdo {
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 500px;
+  height: 300px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: rgb(254, 234, 250);
+  padding: 1px;}
+
+.lado-direito {
+  width: 500px;
+  float: right;
+  margin-right: 150px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: rgb(254, 234, 250);
+  padding: 1px;}
+
+footer {
+  background-color: yellow;}
