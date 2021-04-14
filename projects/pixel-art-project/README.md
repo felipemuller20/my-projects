@@ -1,4 +1,4 @@
-<h4>Facebook Sign Up Project:</h4>
+<h4>Pixel Art Project:</h4>
 Watch me: <br>
 https://felipemuller20.github.io/my-projects/projects/pixel-art-project/
 
