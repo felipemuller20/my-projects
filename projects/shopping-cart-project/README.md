@@ -1,4 +1,4 @@
-Shopping Cart Project:
+#Shopping Cart Project:
 Watch me:
 https://felipemuller20.github.io/my-projects/projects/shopping-cart-project/
 My original commits:
