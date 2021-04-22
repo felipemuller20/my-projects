@@ -8,6 +8,9 @@
 
 <h3>Main projects:</h3>
 
+<h4>Shopping Cart Project:</h4>
+Watch me: https://felipemuller20.github.io/my-projects/projects/shopping-cart-project/
+
 <h4>Facebook Sign Up Project:</h4>
 Watch me: https://felipemuller20.github.io/my-projects/projects/facebook-signup-project/
 
