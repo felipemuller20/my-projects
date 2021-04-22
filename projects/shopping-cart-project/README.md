@@ -1,4 +1,4 @@
-#Shopping Cart Project:
+<h4>Shopping Cart Project:</h4>
 Watch me:
 https://felipemuller20.github.io/my-projects/projects/shopping-cart-project/
 My original commits:
