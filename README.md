@@ -28,5 +28,6 @@ Watch me: https://felipemuller20.github.io/my-projects/projects/pixel-art-projec
 <h4>Playground Functions Project</h4>
 <h4>Unit Tests Project</h4>
 <h4>Zoo Functions Project</h4>
+<h4>Jest Tests Project</h4>
 
 You can read more about each project within its respective README.md
