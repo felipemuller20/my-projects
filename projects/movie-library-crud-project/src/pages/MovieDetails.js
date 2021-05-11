@@ -46,7 +46,7 @@ class MovieDetails extends Component {
         { loading
           ? <Loading />
           : (
-            <div>
+            <div className="movie-details">
               <DetailedMovie
                 title={ title }
                 subtitle={ subtitle }
@@ -55,11 +55,11 @@ class MovieDetails extends Component {
                 rating={ rating }
                 storyline={ storyline }
               />
-              <Link to="/">VOLTAR</Link>
-              <br />
-              <Link to={ `/movies/${id}/edit` }>EDITAR</Link>
-              <br />
-              <Link to="/" onClick={ this.deleteMovie }>DELETAR</Link>
+              <div className='detailed-links'>
+                <Link to="/">VOLTAR</Link>
+                <Link to={ `/movies/${id}/edit` }>EDITAR</Link>
+                <Link to="/" onClick={ this.deleteMovie }>DELETAR</Link>
+              </div>
             </div>
           )}
       </div>

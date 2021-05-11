@@ -30,7 +30,8 @@ class MovieList extends Component {
     return (loading
       ? <Loading />
       : (
-        <div data-testid="movie-list">
+        <div>
+        <div data-testid="movie-list" className="movie-list">
           {movies.length === 0
             ? <Loading />
             : movies.map((movie) => (
@@ -43,8 +44,10 @@ class MovieList extends Component {
                 id={ movie.id }
               />
             ))}
-          <Link to="/movies/new">ADICIONAR CARTÃO</Link>
-        </div>));
+        </div>
+          <Link className="add-movie" to="/movies/new">ADICIONAR CARTÃO</Link>
+        </div>
+        ));
   }
 }
 

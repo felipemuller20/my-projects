@@ -6,7 +6,7 @@ class DetailedMovie extends React.Component {
     const { imagePath, title, subtitle, storyline, rating, genre } = this.props;
     return (
       <div>
-        <img alt="Movie Cover" src={ `../${imagePath}` } />
+        <img alt="Movie Cover" src={ `../${imagePath}` === undefined ? imagePath : `../${imagePath}` } />
         <h2>{title}</h2>
         <p>{ `Subtitle: ${subtitle}` }</p>
         <p>{ `Storyline: ${storyline}` }</p>
