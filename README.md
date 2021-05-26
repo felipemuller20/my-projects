@@ -24,7 +24,8 @@ Watch me: https://felipemuller20.github.io/my-projects/projects/todo-list-projec
 Watch me: https://felipemuller20.github.io/my-projects/projects/pixel-art-project/
 
 <h3>Other projects:</h3>
-<h4>Movie Library Project</h4>
+<h4>Movie Library CRUD Project</h4>
+<h4>React Testing Library Project</h4>
 <h4>Lessons Learned Project</h4>
 <h4>Playground Functions Project</h4>
 <h4>Unit Tests Project</h4>
